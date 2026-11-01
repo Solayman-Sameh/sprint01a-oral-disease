@@ -1,0 +1,69 @@
+{
+  "dataset": "salmansajid05/oral-diseases",
+  "version": 3,
+  "license": "unknown",
+  "manifest_sha256": "32560253ac4ae21649eea2cfea7e64b496b06cd9ffec5443e873609725547f1e",
+  "usage": "Local demonstration examples; review image reuse rights before public redistribution.",
+  "examples": [
+    {
+      "file": "calculus.jpg",
+      "class": "Calculus",
+      "source_path": "Calculus/Calculus/(1213).jpg",
+      "split": "train",
+      "family_id": "family_c523a56ff3aca4f2fc1c",
+      "source_sha256": "9b9e772306224691b0441b58ee04fcea18aa125ff898547a4afb5c9a361681c1",
+      "file_sha256": "5b6c72bc047ddc551a2692f15490e918e1cd479b45eb571731adb4c1f495b78a",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    },
+    {
+      "file": "caries.jpg",
+      "class": "Caries",
+      "source_path": "Data caries/Data caries/caries orignal data set/done/204.jpg",
+      "split": "train",
+      "family_id": "family_b5b199328fa8d304fbb7",
+      "source_sha256": "29bbda5d5d6eca1b28ad233d2de447ad9c3e19cb9cef920abb7b9038af7bea49",
+      "file_sha256": "d2cbb04d39ba02fec50dccfe810234cec9c6b26d26d3232ebcb4aa0126b02377",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    },
+    {
+      "file": "gingivitis.jpg",
+      "class": "Gingivitis",
+      "source_path": "Gingivitis/Gingivitis/(1435).jpg",
+      "split": "train",
+      "family_id": "family_fb8adca6598bb301ca67",
+      "source_sha256": "b5b0fbc643ba462b136e28b044eccf5df48e39c2968d00aab1a4d256590e8141",
+      "file_sha256": "54167bbf53ea150ab0c66c314104b4bc2e07e757df5a6172175fbd5d5608eb4a",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    },
+    {
+      "file": "hypodontia.jpg",
+      "class": "Hypodontia",
+      "source_path": "hypodontia/hypodontia/(347).jpg",
+      "split": "train",
+      "family_id": "family_ccf7f1dd17ef90246925",
+      "source_sha256": "e13ed955b3b4f466cc9cb63a8659b52f115a5fc4bc2ee61b720f96687311fc95",
+      "file_sha256": "de5500eb00347f1b72bb9d474fc73ef5036c663c25ea84f026df6915798deb47",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    },
+    {
+      "file": "mouth_ulcer.jpg",
+      "class": "Mouth Ulcer",
+      "source_path": "Mouth Ulcer/Mouth Ulcer/ulcer original dataset/ulcer original dataset/128.jpg",
+      "split": "train",
+      "family_id": "family_8efffa4212bda7b5a4fc",
+      "source_sha256": "099694ac3a0f6a5b88e0ffb6a8cced1e2648980343a86b2ee3cfd560e598b5f1",
+      "file_sha256": "19f942840df80bd79a711a5722e82024bad6d03e1908b518a2a42a29d7894dad",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    },
+    {
+      "file": "tooth_discoloration.jpg",
+      "class": "Tooth Discoloration",
+      "source_path": "Tooth Discoloration/Tooth Discoloration /tooth discoloration original dataset/tooth discoloration original dataset/118.jpg",
+      "split": "train",
+      "family_id": "family_c70f94f8fd7fe9fa9c74",
+      "source_sha256": "23328deed58e7238c0b84a806b9c9bcf7cb5b820b8f1506980bbd0285f32f8f5",
+      "file_sha256": "9e21a1d19bcfc4523749f9472cf51c8df22533452f96c6f9f783b1d01a8896d0",
+      "preparation": "EXIF transpose, RGB, max 640px, JPEG quality 92; no retouching or metadata retained."
+    }
+  ]
+}

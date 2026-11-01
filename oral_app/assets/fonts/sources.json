@@ -1,0 +1,26 @@
+[
+  {
+    "file": "Manrope-Variable.woff2",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "source_sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "sha256": "8b9a8b99a00f83af243b7f15489caf8cc00cd2ee1eb1a7fc077ccf1524b42970",
+    "license": "SIL Open Font License 1.1",
+    "conversion": "TTF to WOFF2; no glyph or naming changes"
+  },
+  {
+    "file": "IBMPlexSansArabic-Regular.woff2",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
+    "source_sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+    "sha256": "4839bf7adcea08eebbb186523b3a9c53c620f88fd9a9a3cbb90f1189ca840d2d",
+    "license": "SIL Open Font License 1.1",
+    "conversion": "TTF to WOFF2; no glyph or naming changes"
+  },
+  {
+    "file": "IBMPlexSansArabic-SemiBold.woff2",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
+    "source_sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467",
+    "sha256": "7bc97e26c9256960f39b8f96682ff8e507306a257f64b373f2250d7bca875f77",
+    "license": "SIL Open Font License 1.1",
+    "conversion": "TTF to WOFF2; no glyph or naming changes"
+  }
+]

@@ -1,0 +1,68 @@
+# Local environments, editor and notebook caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.local
+credentials.json
+service-account*.json
+serviceAccount*.json
+kaggle.json
+*.pem
+*.key
+
+# Local data, scratch material and outputs
+/local/
+/data/raw/
+/data/processed/
+/data/downloads/
+/research/
+/config/
+/runs/
+/outputs/
+/alerts/
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep the selected checkpoint and small experiment metadata; omit other weights.
+/models/*
+!/models/fine-tuned/
+/models/fine-tuned/*
+!/models/fine-tuned/class_to_idx.json
+!/models/fine-tuned/data_policy.json
+!/models/fine-tuned/experiment_config.json
+!/models/fine-tuned/model_comparison.csv
+!/models/fine-tuned/runtime.json
+!/models/fine-tuned/selected_model.json
+*.pt
+*.pth
+*.ckpt
+*.onnx
+!/models/fine-tuned/best.pt
+
+# Local copies of third-party images and the alternative notebook export.
+/oral_app/assets/examples/*.jpg
+/docs/images/*
+!/docs/images/gradio-arabic-mobile.jpg
+!/docs/images/gradio-english.jpg
+/notebooks/oral-disease-training-results-public.ipynb
+
+# Legacy local base-model downloader and its test depend on config/.
+/scripts/download_base_models.py
+/scripts/model_loading.py
+/tests/test_model_download.py
+
+# Private working notes and superseded plans, retained locally.
+/docs/HANDOFF.md
+/docs/DEPLOYMENT_PLAN.md
+/docs/DATASET_DECISION.md
+/docs/MODEL_PROPOSAL.md
+/docs/MODEL_STORAGE.md
+/docs/UI_implementation_plan.md

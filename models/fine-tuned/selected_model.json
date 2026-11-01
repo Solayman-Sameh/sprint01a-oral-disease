@@ -1,0 +1,7 @@
+{
+  "criterion": "validation_macro_f1",
+  "trial": "resnet50_trial1",
+  "model": "resnet50",
+  "best_checkpoint": "/kaggle/working/oral_training/resnet50_trial1/best.pt",
+  "selected_before_test": true
+}

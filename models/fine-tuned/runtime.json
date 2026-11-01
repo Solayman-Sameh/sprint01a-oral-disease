@@ -1,0 +1,37 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "cuda_build": "12.8",
+  "world_size": 2,
+  "library_versions": {
+    "ultralytics": "8.4.191",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "Pillow": "12.3.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "ipython": "7.34.0"
+  },
+  "local_package_pins": {
+    "ultralytics": "8.4.191",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "Pillow": "12.3.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1"
+  },
+  "local_runtime_reference": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "ipython": "9.16.1"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "runtime": "local Windows / Conda main, PyTorch 2.5.1+cu121, Gradio 6.30.0, CPU inference",
+  "api_checks": {
+    "empty_input": true,
+    "six_bars": true,
+    "valid_top_prediction": true,
+    "translate_existing_scores": true,
+    "clear_image": true,
+    "clear_scores": true,
+    "arabic_missing_input": true,
+    "language_is_session_local": true,
+    "blocked_models/fine-tuned/best.pt": true,
+    "blocked_data/raw/oral-diseases-v3.zip": true,
+    "no_unintended_false_named_endpoints": true
+  },
+  "updated_utc": "2026-10-29T21:43:58.635553+00:00",
+  "unit_tests": {
+    "passed": 8,
+    "failed": 0,
+    "cpu_prediction_median_seconds": 0.256,
+    "cpu_prediction_max_seconds": 0.334,
+    "scope": "Real local checkpoint, six examples, grayscale/RGBA, EXIF, training-transform parity, language/results state and input-size checks."
+  },
+  "exported_package_flat_model_layout": "load_model and six-score prediction passed",
+  "live_hugging_face_deployment": "Not performed",
+  "browser_checks": {
+    "browser": "Codex in-app browser",
+    "example_click_loads_image": true,
+    "file_chooser_upload": true,
+    "classify_six_sorted_scores": true,
+    "english_arabic_switch_and_rtl": true,
+    "english_restoration": true,
+    "about_accordion_and_six_class_table": true,
+    "desktop_without_horizontal_overflow": true,
+    "mobile_without_horizontal_overflow": true,
+    "bundled_font_faces_loaded": 3,
+    "drag_and_drop_gesture": "Not separately exercised; native Gradio upload control",
+    "screenshots": [
+      "docs/images/gradio-english.jpg",
+      "docs/images/gradio-arabic-mobile.jpg"
+    ]
+  },
+  "next_step": "User requested design review before Hugging Face deployment."
+}

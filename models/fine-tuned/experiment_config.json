@@ -1,0 +1,153 @@
+{
+  "manifest": "/kaggle/working/oral_training/split_manifest.csv",
+  "manifest_sha256": "32560253ac4ae21649eea2cfea7e64b496b06cd9ffec5443e873609725547f1e",
+  "data_root": "/kaggle/input/datasets/salmansajid05/oral-diseases",
+  "output": "/kaggle/working/oral_training",
+  "classes": [
+    "Calculus",
+    "Caries",
+    "Gingivitis",
+    "Hypodontia",
+    "Mouth Ulcer",
+    "Tooth Discoloration"
+  ],
+  "seed": 42,
+  "weights": {
+    "resnet50": {
+      "model": "ResNet50",
+      "architecture": "resnet50",
+      "filename": "resnet50-11ad3fa6.pth",
+      "url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+      "bytes": 102540417,
+      "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+      "weights_enum": "ResNet50_Weights.IMAGENET1K_V2",
+      "path": "/kaggle/working/oral_training/base_weights/resnet50-11ad3fa6.pth"
+    },
+    "efficientnet_b0": {
+      "model": "EfficientNet-B0",
+      "architecture": "efficientnet_b0",
+      "filename": "efficientnet_b0_rwightman-7f5810bc.pth",
+      "url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
+      "bytes": 21444401,
+      "sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+      "weights_enum": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+      "path": "/kaggle/working/oral_training/base_weights/efficientnet_b0_rwightman-7f5810bc.pth"
+    },
+    "mobilenet_v3_large": {
+      "model": "MobileNetV3-Large",
+      "architecture": "mobilenet_v3_large",
+      "filename": "mobilenet_v3_large-5c1a4163.pth",
+      "url": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+      "bytes": 22132113,
+      "sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+      "weights_enum": "MobileNet_V3_Large_Weights.IMAGENET1K_V2",
+      "path": "/kaggle/working/oral_training/base_weights/mobilenet_v3_large-5c1a4163.pth"
+    },
+    "resnet101": {
+      "model": "ResNet101",
+      "architecture": "resnet101",
+      "filename": "resnet101-cd907fc2.pth",
+      "url": "https://download.pytorch.org/models/resnet101-cd907fc2.pth",
+      "bytes": 178814045,
+      "sha256": "cd907fc2a0de2292b2ba2b27d2216bc672d84632d1cf20058d01c0c03b5e020e",
+      "weights_enum": "ResNet101_Weights.IMAGENET1K_V2",
+      "path": "/kaggle/working/oral_training/base_weights/resnet101-cd907fc2.pth"
+    }
+  },
+  "trials": [
+    {
+      "id": "custom_cnn_trial1",
+      "model": "custom_cnn",
+      "lr": 0.001,
+      "dropout": 0.3,
+      "weight_decay": 0.0001,
+      "epochs": 15,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "custom_cnn_trial2",
+      "model": "custom_cnn",
+      "lr": 0.0003,
+      "dropout": 0.4,
+      "weight_decay": 0.0001,
+      "epochs": 15,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "efficientnet_b0_trial1",
+      "model": "efficientnet_b0",
+      "lr": 0.001,
+      "dropout": 0.3,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "efficientnet_b0_trial2",
+      "model": "efficientnet_b0",
+      "lr": 0.0003,
+      "dropout": 0.4,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "mobilenet_v3_large_trial1",
+      "model": "mobilenet_v3_large",
+      "lr": 0.001,
+      "dropout": 0.3,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "mobilenet_v3_large_trial2",
+      "model": "mobilenet_v3_large",
+      "lr": 0.0003,
+      "dropout": 0.4,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "resnet50_trial1",
+      "model": "resnet50",
+      "lr": 0.001,
+      "dropout": 0.3,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "resnet50_trial2",
+      "model": "resnet50",
+      "lr": 0.0003,
+      "dropout": 0.4,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 32
+    },
+    {
+      "id": "resnet101_trial1",
+      "model": "resnet101",
+      "lr": 0.001,
+      "dropout": 0.3,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 16
+    },
+    {
+      "id": "resnet101_trial2",
+      "model": "resnet101",
+      "lr": 0.0003,
+      "dropout": 0.4,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "batch_size_per_gpu": 16
+    }
+  ],
+  "image_size": 224,
+  "workers_per_rank": 2,
+  "patience": 3,
+  "max_training_hours": 9
+}

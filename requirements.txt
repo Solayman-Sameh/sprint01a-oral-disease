@@ -1,0 +1,9 @@
+# Inference only. Linux Spaces explicitly install CPU wheels.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu; sys_platform == "linux"
+torchvision==0.20.1+cpu; sys_platform == "linux"
+torch==2.5.1; sys_platform != "linux"
+torchvision==0.20.1; sys_platform != "linux"
+gradio==6.30.0
+Pillow==12.3.0
+numpy==2.4.6

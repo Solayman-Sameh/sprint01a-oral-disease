@@ -1,0 +1,26 @@
+{
+  "status": "FIXED_INITIAL_EXPERIMENT",
+  "manifest_sha256": "32560253ac4ae21649eea2cfea7e64b496b06cd9ffec5443e873609725547f1e",
+  "source_fingerprint": "cb469a4b82c47ab3e2058c5915ef322d24c55e5dc27cfc7277796e20799bf595",
+  "phash_algorithm": "dct32_low8_rgb_dihedral_v2",
+  "orientations": [
+    "identity",
+    "rotate90",
+    "rotate180",
+    "rotate270",
+    "mirror",
+    "mirror_rotate90",
+    "mirror_rotate180",
+    "mirror_rotate270"
+  ],
+  "perceptual_pairs": 4978,
+  "eligible_images": 3448,
+  "families": 1812,
+  "label_conflict_candidates_quarantined": 58,
+  "geometry_flagged_eligible_images": 403,
+  "visual_review": "120 local samples plus transformation-match sheets inspected; not every image clinically reviewed.",
+  "patient_independence": "Unverified",
+  "clinical_labels_validated": false,
+  "manual_links": [],
+  "manual_exclusions": {}
+}
